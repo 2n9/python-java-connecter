@@ -1,0 +1,10 @@
+import sys
+from py4j.java_gateway import JavaGateway
+
+gateway = JavaGateway()
+scanner = gateway.jvm.java.util.Scanner(gateway.jvm.java.util.System.in)
+i = scanner.nextInt()
+print(i)
+
+# ver python
+print(int(input()))
