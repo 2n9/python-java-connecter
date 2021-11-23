@@ -8,3 +8,7 @@ print(i)
 
 # ver python
 print(int(input()))
+
+
+# shutdownしないとメモリが大変になるらしい
+gateway.shutdown()
